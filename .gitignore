@@ -1,0 +1,24 @@
+# 构建产物（含 build/install）都不进仓库 —— 发布用 dist/ 里的两个语言包
+/build/*
+
+# 生成的英文源码（由 build_i18n.py 产出，不入库）
+/build/i18n/
+
+# 本地快照 / 历史版本
+/backup/
+
+# 临时
+i18n_strings.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+*.swp
+*~
+Thumbs.db
+Desktop.ini
